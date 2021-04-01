@@ -15,6 +15,7 @@ myImage.addEventListener('click', function() {
 
 
 let myButton = document.querySelector('button');
+//let myButton2 = document.querySelector('');//
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
