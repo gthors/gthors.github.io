@@ -15,7 +15,7 @@ myImage.addEventListener('click', function() {
 
 
 let myButton = document.querySelector('button');
-//let myButton2 = document.querySelector('');//
+let myButton2 = document.getElementbyId('url');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
@@ -33,4 +33,8 @@ if (!localStorage.getItem('nom')) {
 
 myButton.addEventListener('click', function() {
 	setUserName();
+  });
+
+myButton2.addEventListener('click', function() {
+	alert('Hello world');
   });
